@@ -4,7 +4,7 @@
 
 **Turn product requirements into a strict, testable data contract, and make sure only validated data ever reaches the UI.**
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/YOUR-USERNAME/listing-data-contract-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
 ![JSON Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-0f5c63)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 ![Tests](https://img.shields.io/badge/tests-26%20passing-2ea44f)
@@ -12,7 +12,7 @@
 
 </div>
 
-> Replace `OWNER/REPO` in the CI badge with your GitHub path after you push.
+> Replace `YOUR-USERNAME/listing-data-contract-lab` in the CI badge with your GitHub path after you push.
 
 ## Why this exists
 
