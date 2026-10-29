@@ -1,0 +1,43 @@
+{
+  "name": "listing-data-contract-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Week 3 lab: explicit, validated data contracts (JSON Schema) for a real-estate listing app. All data is synthetic.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "validate": "tsx scripts/validate.ts",
+    "validate:generated": "tsx scripts/validate.ts --report data/generated/ai-studio-run-001.raw.json data/generated/ai-studio-run-002.raw.json",
+    "gen:types": "tsx scripts/generate-types.ts",
+    "schema:bundle": "tsx scripts/bundle-schema.ts",
+    "check": "npm run lint && npm run test && npm run build"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@apidevtools/json-schema-ref-parser": "^16.0.5",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "json-schema-to-typescript": "^16.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
