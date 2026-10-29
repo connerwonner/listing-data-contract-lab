@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "property.schema.json",
+  "title": "Property",
+  "description": "One listing as consumed by the property card, detail page, sponsor picker and voice response. Strict: unknown fields are rejected.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "property_id",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "property_type",
+    "listing_status",
+    "price",
+    "bedrooms",
+    "bathrooms",
+    "square_feet",
+    "amenities",
+    "local_sponsors"
+  ],
+  "properties": {
+    "property_id": { "$ref": "common.schema.json#/$defs/property_id" },
+    "street_address": { "type": "string", "minLength": 5, "maxLength": 120, "description": "Street number and name, without unit." },
+    "unit": { "type": "string", "minLength": 1, "maxLength": 20, "description": "Apartment/suite, only when applicable." },
+    "city": { "type": "string", "minLength": 2, "maxLength": 80 },
+    "state": { "$ref": "common.schema.json#/$defs/state" },
+    "zip_code": { "$ref": "common.schema.json#/$defs/zip_code" },
+    "property_type": { "type": "string", "enum": ["single_family", "condo", "townhouse", "multi_family"] },
+    "listing_status": { "type": "string", "enum": ["active", "pending", "sold", "coming_soon"] },
+    "price": { "type": "integer", "exclusiveMinimum": 0, "description": "List price in whole US dollars. No symbols, no commas." },
+    "bedrooms": { "type": "integer", "minimum": 0, "maximum": 20, "description": "0 means studio." },
+    "bathrooms": { "type": "number", "minimum": 0, "maximum": 20, "multipleOf": 0.5, "description": "Half baths count as 0.5." },
+    "square_feet": { "type": "integer", "exclusiveMinimum": 0, "maximum": 100000, "description": "Interior living area." },
+    "year_built": { "type": "integer", "minimum": 1600, "maximum": 2100 },
+    "description": { "type": "string", "minLength": 20, "maxLength": 600 },
+    "amenities": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 16,
+      "description": "Controlled vocabulary. See docs/adr/001-data-contract.md for why this is an enum and not free text.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "pool", "garage", "fireplace", "central_air", "hardwood_floors", "fenced_yard",
+          "solar_panels", "ev_charger", "washer_dryer", "balcony", "gym", "doorman",
+          "pet_friendly", "updated_kitchen", "walk_in_closet", "rooftop_deck"
+        ]
+      }
+    },
+    "local_sponsors": {
+      "type": "array",
+      "maxItems": 3,
+      "uniqueItems": true,
+      "description": "Denormalized read-model of PropertySponsor rows joined to Sponsor. May be empty.",
+      "items": { "$ref": "#/$defs/sponsor_summary" }
+    }
+  },
+  "$defs": {
+    "sponsor_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sponsor_id", "name", "category", "placement_rank"],
+      "properties": {
+        "sponsor_id": { "$ref": "common.schema.json#/$defs/sponsor_id" },
+        "name": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "category": { "$ref": "common.schema.json#/$defs/sponsor_category" },
+        "placement_rank": { "$ref": "common.schema.json#/$defs/placement_rank" }
+      }
+    }
+  }
+}

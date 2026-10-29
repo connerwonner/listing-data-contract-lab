@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sponsor.schema.json",
+  "title": "Sponsor",
+  "description": "A local business that can sponsor listings. Source of truth for sponsor facts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sponsor_id", "name", "category", "phone", "website", "service_zip_codes", "active"],
+  "properties": {
+    "sponsor_id": { "$ref": "common.schema.json#/$defs/sponsor_id" },
+    "name": { "type": "string", "minLength": 2, "maxLength": 80 },
+    "category": { "$ref": "common.schema.json#/$defs/sponsor_category" },
+    "phone": { "$ref": "common.schema.json#/$defs/phone" },
+    "website": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "service_zip_codes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "common.schema.json#/$defs/zip_code" }
+    },
+    "active": { "type": "boolean" }
+  }
+}

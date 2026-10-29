@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "title": "Common definitions",
+  "description": "Shared primitives so Property, Sponsor and PropertySponsor can never disagree about an ID, ZIP or category.",
+  "$defs": {
+    "property_id": {
+      "type": "string",
+      "pattern": "^PROP-[0-9]{4,6}$",
+      "description": "Primary key of a Property. Example: PROP-0001."
+    },
+    "sponsor_id": {
+      "type": "string",
+      "pattern": "^SPN-[0-9]{3,6}$",
+      "description": "Primary key of a Sponsor. Example: SPN-004."
+    },
+    "zip_code": {
+      "type": "string",
+      "pattern": "^[0-9]{5}$",
+      "description": "5-digit US ZIP. Kept as a string so leading zeros survive (e.g. 02139)."
+    },
+    "state": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "Two-letter uppercase US state or DC code."
+    },
+    "phone": {
+      "type": "string",
+      "pattern": "^\\+1-[0-9]{3}-[0-9]{3}-[0-9]{4}$",
+      "description": "E.164-style with dashes. Seed data uses the reserved fictional 555-01xx range."
+    },
+    "placement_rank": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3,
+      "description": "1 = featured first. At most 3 sponsors are shown per property."
+    },
+    "sponsor_category": {
+      "type": "string",
+      "enum": [
+        "mortgage",
+        "title_escrow",
+        "inspection",
+        "moving",
+        "insurance",
+        "landscaping",
+        "interior_design",
+        "home_warranty"
+      ]
+    }
+  }
+}

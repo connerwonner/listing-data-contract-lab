@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "property-sponsor.schema.json",
+  "title": "PropertySponsor",
+  "description": "Join entity. Composite primary key (property_id, sponsor_id). Carries placement facts that belong to neither side alone.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["property_id", "sponsor_id", "placement_rank", "start_date"],
+  "properties": {
+    "property_id": { "$ref": "common.schema.json#/$defs/property_id" },
+    "sponsor_id": { "$ref": "common.schema.json#/$defs/sponsor_id" },
+    "placement_rank": { "$ref": "common.schema.json#/$defs/placement_rank" },
+    "start_date": { "type": "string", "format": "date" },
+    "end_date": { "type": "string", "format": "date", "description": "Omit for open-ended placements." }
+  }
+}
