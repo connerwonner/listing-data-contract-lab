@@ -1,0 +1,29 @@
+$ npm test
+ ✓ tests/voice.test.ts > voiceResponse > speaks half baths and sorted sponsors 16ms
+ ✓ tests/voice.test.ts > voiceResponse > handles studios, units, and no sponsors 1ms
+ ✓ tests/contract.test.ts > valid records > accepts a valid property 4ms
+ ✓ tests/contract.test.ts > valid records > seed property PROP-0001 passes 1ms
+ ✓ tests/contract.test.ts > valid records > seed property PROP-0002 passes 0ms
+ ✓ tests/contract.test.ts > valid records > seed property PROP-0003 passes 0ms
+ ✓ tests/contract.test.ts > valid records > seed property PROP-0004 passes 0ms
+ ✓ tests/contract.test.ts > valid records > seed property PROP-0005 passes 0ms
+ ✓ tests/contract.test.ts > valid records > all seed sponsors and links pass 6ms
+ ✓ tests/contract.test.ts > valid records > seed data is referentially coherent 1ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > has at least the four required invalid cases 1ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > amenity-not-in-vocabulary.json 1ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > bad-zip.json 0ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > bathrooms-not-half-steps.json 0ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > fractional-bedrooms.json 0ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > missing-id.json 0ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > negative-price.json 0ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > short-address.json 0ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > too-many-sponsors.json 0ms
+ ✓ tests/contract.test.ts > invalid fixtures fail for the expected reason > unknown-field.json 0ms
+ ✓ tests/contract.test.ts > integrity rules the schema cannot express > flags a sponsor that does not serve the property's ZIP 0ms
+ ✓ tests/contract.test.ts > integrity rules the schema cannot express > flags an unknown sponsor 0ms
+ ✓ tests/contract.test.ts > parseListings: the UI boundary fails safely > separates valid from rejected and never throws 2ms
+ ✓ tests/contract.test.ts > parseListings: the UI boundary fails safely > rejects a non-array payload 0ms
+ ✓ tests/contract.test.ts > AI Studio generation runs (simulated, see data/generated/README.md) > run 001 contains the documented errors 1ms
+ ✓ tests/contract.test.ts > AI Studio generation runs (simulated, see data/generated/README.md) > run 002 passes after prompt and schema fixes 0ms
+ Test Files  2 passed (2)
+      Tests  26 passed (26)

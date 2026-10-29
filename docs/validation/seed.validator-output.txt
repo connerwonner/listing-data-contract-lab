@@ -1,0 +1,6 @@
+$ npm run validate
+Validating seed data (synthetic)
+  properties 5/5 valid, sponsors 7/7 valid, links 14/14 valid
+  referential integrity: OK
+
+RESULT: PASS

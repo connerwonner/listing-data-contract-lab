@@ -1,0 +1,18 @@
+$ npm run validate:generated
+
+data/generated/ai-studio-run-001.raw.json
+  1 valid, 4 rejected
+  REJECTED index=1 id=PROP-0102
+       /price                 type                 must be integer
+  REJECTED index=2 id=PROP-0103
+       /zip_code              pattern              must match pattern "^[0-9]{5}$"
+  REJECTED index=3 id=PROP-0104
+       /lot_size_sqft         additionalProperties must NOT have additional properties
+  REJECTED index=4 id=PROP-0105
+       /bedrooms              type                 must be integer
+       /amenities/0           enum                 must be equal to one of the allowed values
+
+data/generated/ai-studio-run-002.raw.json
+  5 valid, 0 rejected
+
+RESULT: 4 problem(s) found

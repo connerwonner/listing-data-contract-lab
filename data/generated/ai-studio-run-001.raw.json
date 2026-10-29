@@ -1,0 +1,181 @@
+[
+  {
+    "property_id": "PROP-0101",
+    "street_address": "512 Cedar Hollow Road",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "property_type": "single_family",
+    "listing_status": "active",
+    "price": 612000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "square_feet": 1650,
+    "year_built": 1957,
+    "amenities": [
+      "hardwood_floors",
+      "fireplace",
+      "fenced_yard"
+    ],
+    "description": "Cozy bungalow near the river with refinished floors, a brick fireplace and a sunny backyard.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-004",
+        "name": "Bridgewater Lending",
+        "category": "mortgage",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-002",
+        "name": "Blue Fern Home Inspections",
+        "category": "inspection",
+        "placement_rank": 2
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-0102",
+    "street_address": "88 Congress Lofts",
+    "unit": "1204",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "property_type": "condo",
+    "listing_status": "active",
+    "price": "$398,000",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "square_feet": 820,
+    "year_built": 2012,
+    "amenities": [
+      "gym",
+      "balcony",
+      "pet_friendly"
+    ],
+    "description": "Downtown loft-style condo with floor-to-ceiling windows and access to a rooftop gym.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-004",
+        "name": "Bridgewater Lending",
+        "category": "mortgage",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-003",
+        "name": "Cobalt Moving Co.",
+        "category": "moving",
+        "placement_rank": 2
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-0103",
+    "street_address": "1640 Blake Meadow Way",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "8020",
+    "property_type": "townhouse",
+    "listing_status": "coming_soon",
+    "price": 559000,
+    "bedrooms": 2,
+    "bathrooms": 2.5,
+    "square_feet": 1380,
+    "year_built": 2015,
+    "amenities": [
+      "garage",
+      "central_air",
+      "updated_kitchen"
+    ],
+    "description": "Bright end-unit townhouse with an updated kitchen, attached garage and low-maintenance patio.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-001",
+        "name": "Northwind Title & Escrow",
+        "category": "title_escrow",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-006",
+        "name": "Keystone Home Warranty",
+        "category": "home_warranty",
+        "placement_rank": 2
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-0104",
+    "street_address": "43 Bayshore Pines Drive",
+    "city": "Tampa",
+    "state": "FL",
+    "zip_code": "33602",
+    "property_type": "single_family",
+    "listing_status": "pending",
+    "price": 835000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "square_feet": 2640,
+    "year_built": 2008,
+    "amenities": [
+      "pool",
+      "garage",
+      "central_air",
+      "ev_charger"
+    ],
+    "description": "Four-bedroom pool home with a three-car garage, an EV charger and an open-plan kitchen.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-007",
+        "name": "Greenline Landscaping",
+        "category": "landscaping",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-004",
+        "name": "Bridgewater Lending",
+        "category": "mortgage",
+        "placement_rank": 2
+      },
+      {
+        "sponsor_id": "SPN-006",
+        "name": "Keystone Home Warranty",
+        "category": "home_warranty",
+        "placement_rank": 3
+      }
+    ],
+    "lot_size_sqft": 9100
+  },
+  {
+    "property_id": "PROP-0105",
+    "street_address": "2750 Clybourn Terrace",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60614",
+    "property_type": "multi_family",
+    "listing_status": "active",
+    "price": 1125000,
+    "bedrooms": 5.5,
+    "bathrooms": 4,
+    "square_feet": 3900,
+    "year_built": 1925,
+    "amenities": [
+      "Hardwood Floors",
+      "washer_dryer",
+      "pet_friendly"
+    ],
+    "description": "Classic greystone two-flat with original millwork and updated mechanicals in both units.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-003",
+        "name": "Cobalt Moving Co.",
+        "category": "moving",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-005",
+        "name": "Tallow & Oak Interiors",
+        "category": "interior_design",
+        "placement_rank": 2
+      }
+    ]
+  }
+]

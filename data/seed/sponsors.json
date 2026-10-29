@@ -1,0 +1,97 @@
+[
+  {
+    "sponsor_id": "SPN-001",
+    "name": "Northwind Title & Escrow",
+    "category": "title_escrow",
+    "phone": "+1-503-555-0101",
+    "website": "https://northwind-title.example.com",
+    "service_zip_codes": [
+      "97201",
+      "97209",
+      "80202",
+      "60614"
+    ],
+    "active": true
+  },
+  {
+    "sponsor_id": "SPN-002",
+    "name": "Blue Fern Home Inspections",
+    "category": "inspection",
+    "phone": "+1-512-555-0102",
+    "website": "https://bluefern-inspect.example.com",
+    "service_zip_codes": [
+      "97201",
+      "78701",
+      "33602"
+    ],
+    "active": true
+  },
+  {
+    "sponsor_id": "SPN-003",
+    "name": "Cobalt Moving Co.",
+    "category": "moving",
+    "phone": "+1-303-555-0103",
+    "website": "https://cobalt-moving.example.com",
+    "service_zip_codes": [
+      "78701",
+      "80202",
+      "60614",
+      "33602"
+    ],
+    "active": true
+  },
+  {
+    "sponsor_id": "SPN-004",
+    "name": "Bridgewater Lending",
+    "category": "mortgage",
+    "phone": "+1-206-555-0104",
+    "website": "https://bridgewater-lending.example.com",
+    "service_zip_codes": [
+      "97201",
+      "78701",
+      "80202",
+      "33602",
+      "60614"
+    ],
+    "active": true
+  },
+  {
+    "sponsor_id": "SPN-005",
+    "name": "Tallow & Oak Interiors",
+    "category": "interior_design",
+    "phone": "+1-312-555-0105",
+    "website": "https://tallow-oak.example.com",
+    "service_zip_codes": [
+      "97201",
+      "80202",
+      "60614"
+    ],
+    "active": true
+  },
+  {
+    "sponsor_id": "SPN-006",
+    "name": "Keystone Home Warranty",
+    "category": "home_warranty",
+    "phone": "+1-813-555-0106",
+    "website": "https://keystone-warranty.example.com",
+    "service_zip_codes": [
+      "78701",
+      "33602",
+      "60614",
+      "80202"
+    ],
+    "active": true
+  },
+  {
+    "sponsor_id": "SPN-007",
+    "name": "Greenline Landscaping",
+    "category": "landscaping",
+    "phone": "+1-813-555-0107",
+    "website": "https://greenline-landscape.example.com",
+    "service_zip_codes": [
+      "33602",
+      "78701"
+    ],
+    "active": true
+  }
+]

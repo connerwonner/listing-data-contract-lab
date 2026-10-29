@@ -1,0 +1,90 @@
+[
+  {
+    "property_id": "PROP-0001",
+    "sponsor_id": "SPN-004",
+    "placement_rank": 1,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0001",
+    "sponsor_id": "SPN-001",
+    "placement_rank": 2,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0001",
+    "sponsor_id": "SPN-002",
+    "placement_rank": 3,
+    "start_date": "2026-09-01",
+    "end_date": "2027-02-28"
+  },
+  {
+    "property_id": "PROP-0002",
+    "sponsor_id": "SPN-004",
+    "placement_rank": 1,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0002",
+    "sponsor_id": "SPN-002",
+    "placement_rank": 2,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0002",
+    "sponsor_id": "SPN-007",
+    "placement_rank": 3,
+    "start_date": "2026-09-01",
+    "end_date": "2027-02-28"
+  },
+  {
+    "property_id": "PROP-0003",
+    "sponsor_id": "SPN-001",
+    "placement_rank": 1,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0003",
+    "sponsor_id": "SPN-005",
+    "placement_rank": 2,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0003",
+    "sponsor_id": "SPN-003",
+    "placement_rank": 3,
+    "start_date": "2026-09-01",
+    "end_date": "2027-02-28"
+  },
+  {
+    "property_id": "PROP-0004",
+    "sponsor_id": "SPN-007",
+    "placement_rank": 1,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0004",
+    "sponsor_id": "SPN-006",
+    "placement_rank": 2,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0004",
+    "sponsor_id": "SPN-004",
+    "placement_rank": 3,
+    "start_date": "2026-09-01",
+    "end_date": "2027-02-28"
+  },
+  {
+    "property_id": "PROP-0005",
+    "sponsor_id": "SPN-003",
+    "placement_rank": 1,
+    "start_date": "2026-09-01"
+  },
+  {
+    "property_id": "PROP-0005",
+    "sponsor_id": "SPN-005",
+    "placement_rank": 2,
+    "start_date": "2026-09-01"
+  }
+]

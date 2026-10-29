@@ -1,0 +1,207 @@
+[
+  {
+    "property_id": "PROP-0001",
+    "street_address": "1428 Alder Crest Lane",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "property_type": "single_family",
+    "listing_status": "active",
+    "price": 849000,
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "square_feet": 2380,
+    "year_built": 1968,
+    "amenities": [
+      "fireplace",
+      "hardwood_floors",
+      "fenced_yard",
+      "updated_kitchen",
+      "central_air"
+    ],
+    "description": "Mid-century home on a quiet street with a renovated kitchen, original oak floors and a fully fenced backyard.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-004",
+        "name": "Bridgewater Lending",
+        "category": "mortgage",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-001",
+        "name": "Northwind Title & Escrow",
+        "category": "title_escrow",
+        "placement_rank": 2
+      },
+      {
+        "sponsor_id": "SPN-002",
+        "name": "Blue Fern Home Inspections",
+        "category": "inspection",
+        "placement_rank": 3
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-0002",
+    "street_address": "310 Juniper Bend Drive",
+    "unit": "5B",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "property_type": "condo",
+    "listing_status": "active",
+    "price": 515000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "square_feet": 1120,
+    "year_built": 2016,
+    "amenities": [
+      "balcony",
+      "gym",
+      "pet_friendly",
+      "washer_dryer",
+      "ev_charger"
+    ],
+    "description": "Fifth-floor corner condo with a wraparound balcony, in-unit laundry and a building gym.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-004",
+        "name": "Bridgewater Lending",
+        "category": "mortgage",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-002",
+        "name": "Blue Fern Home Inspections",
+        "category": "inspection",
+        "placement_rank": 2
+      },
+      {
+        "sponsor_id": "SPN-007",
+        "name": "Greenline Landscaping",
+        "category": "landscaping",
+        "placement_rank": 3
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-0003",
+    "street_address": "77 Larimer Row",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "80202",
+    "property_type": "townhouse",
+    "listing_status": "pending",
+    "price": 689500,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "square_feet": 1740,
+    "year_built": 2019,
+    "amenities": [
+      "garage",
+      "rooftop_deck",
+      "central_air",
+      "walk_in_closet",
+      "solar_panels"
+    ],
+    "description": "Modern three-level townhouse with a private rooftop deck, two-car garage and rooftop solar.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-001",
+        "name": "Northwind Title & Escrow",
+        "category": "title_escrow",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-005",
+        "name": "Tallow & Oak Interiors",
+        "category": "interior_design",
+        "placement_rank": 2
+      },
+      {
+        "sponsor_id": "SPN-003",
+        "name": "Cobalt Moving Co.",
+        "category": "moving",
+        "placement_rank": 3
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-0004",
+    "street_address": "2205 Palmetto Court",
+    "city": "Tampa",
+    "state": "FL",
+    "zip_code": "33602",
+    "property_type": "single_family",
+    "listing_status": "coming_soon",
+    "price": 724900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "square_feet": 1985,
+    "year_built": 2004,
+    "amenities": [
+      "pool",
+      "garage",
+      "fenced_yard",
+      "central_air",
+      "hardwood_floors"
+    ],
+    "description": "Single-story pool home with a screened lanai, a fenced yard and an attached two-car garage.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-007",
+        "name": "Greenline Landscaping",
+        "category": "landscaping",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-006",
+        "name": "Keystone Home Warranty",
+        "category": "home_warranty",
+        "placement_rank": 2
+      },
+      {
+        "sponsor_id": "SPN-004",
+        "name": "Bridgewater Lending",
+        "category": "mortgage",
+        "placement_rank": 3
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-0005",
+    "street_address": "918 Wicker Park Avenue",
+    "unit": "2R",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60614",
+    "property_type": "condo",
+    "listing_status": "active",
+    "price": 439000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "square_feet": 780,
+    "year_built": 1912,
+    "amenities": [
+      "hardwood_floors",
+      "doorman",
+      "pet_friendly",
+      "balcony"
+    ],
+    "description": "Vintage one-bedroom with refinished hardwood floors, a front balcony and a staffed lobby.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-003",
+        "name": "Cobalt Moving Co.",
+        "category": "moving",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-005",
+        "name": "Tallow & Oak Interiors",
+        "category": "interior_design",
+        "placement_rank": 2
+      }
+    ]
+  }
+]
