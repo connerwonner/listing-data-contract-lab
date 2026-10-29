@@ -20,3 +20,5 @@
 3. Save as `docs/evidence/ai-studio-export.png`, commit.
 4. Run `npm run dev`, choose **AI Studio run 001 (has errors)** in the data source menu so the screenshot shows both valid cards and the "hidden listings" panel. Save as `docs/evidence/ui.png`.
 5. Add `![UI](docs/evidence/ui.png)` under the title of `README.md`.
+
+_Reviewed and submitted by connerwonner on 2026-10-29._
