@@ -1,0 +1,49 @@
+{
+  "description": "price must be greater than zero",
+  "expect": {
+    "keyword": "exclusiveMinimum",
+    "path": "/price"
+  },
+  "record": {
+    "property_id": "PROP-0001",
+    "street_address": "1428 Alder Crest Lane",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "property_type": "single_family",
+    "listing_status": "active",
+    "price": -1,
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "square_feet": 2380,
+    "year_built": 1968,
+    "amenities": [
+      "fireplace",
+      "hardwood_floors",
+      "fenced_yard",
+      "updated_kitchen",
+      "central_air"
+    ],
+    "description": "Mid-century home on a quiet street with a renovated kitchen, original oak floors and a fully fenced backyard.",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SPN-004",
+        "name": "Bridgewater Lending",
+        "category": "mortgage",
+        "placement_rank": 1
+      },
+      {
+        "sponsor_id": "SPN-001",
+        "name": "Northwind Title & Escrow",
+        "category": "title_escrow",
+        "placement_rank": 2
+      },
+      {
+        "sponsor_id": "SPN-002",
+        "name": "Blue Fern Home Inspections",
+        "category": "inspection",
+        "placement_rank": 3
+      }
+    ]
+  }
+}
