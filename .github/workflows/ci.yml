@@ -1,0 +1,25 @@
+name: CI
+on:
+  push: { branches: [main] }
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Generated types are up to date (no drift between schema and TypeScript)
+        run: npm run gen:types && git diff --exit-code src/contract/types.generated.ts
+      - name: AI Studio schemas are up to date
+        run: npm run schema:bundle && git diff --exit-code schemas/dist
+      - run: npm run lint
+      - run: npm test
+      - name: Validate seed data
+        run: npm run validate
+      - name: Validator report for AI-generated samples (informational)
+        run: npm run validate:generated | tee validator-output.txt
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with: { name: validator-output, path: validator-output.txt }
